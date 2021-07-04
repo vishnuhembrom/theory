@@ -1,0 +1,43 @@
+.baner{
+    width: 100%;
+    background-image: url("./theory-img/dd.jpg");
+    background-position: center top; 
+    background-image: cover;
+ }
+ .baner ul li a{
+    color:white;
+ }
+ .nav-item a{
+    color:white;
+ }
+ 
+ 
+ .navbar-light .navbar-nav .nav-link.active{
+ color:white;
+ }
+ #aiet{  
+  margin-left: 80%;
+ }
+ 
+ @media screen and (max-width:1000px) {
+    li{
+        text-align: left; 
+    }
+ 
+ }
+ .navbar-light .navbar-brand{
+    color:white;
+ }
+ .navbar-light .navbar-nav .nav-link {
+    color:white;
+ }
+ .navbar-light .navbar-toggler {
+    color:white;
+ }
+ .heeding{
+    text-align: center;
+    color:white;
+    margin-top: 200px;
+    padding-bottom: 200px;
+ }
+ 

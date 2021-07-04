@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    font-size: 16px;
+}
+
+.baner{
+    width: 100%;
+    background-image: url("./theory-img/dd.jpg");
+    background-position: center top; 
+    background-image: cover; 
+    padding-bottom: 16rem;
+    background-attachment: fixed;
+    border-top: 10px solid #5385c1;
+ }
+ .baner ul li a{
+    color:white;
+ }
+ .nav-item a{
+    color:white;
+ }
+ 
+ 
+ .navbar-light .navbar-nav .nav-link.active{
+ color:white;
+ }
+ #aiet{  
+  margin-left: 80%;
+ }
+ 
+.navbar-light .navbar-brand{
+    color:white;
+ }
+ .navbar-light .navbar-nav .nav-link {
+    color:white;
+ }
+ .navbar-light .navbar-toggler {
+    color:white;
+ }
+ .heeding{
+    text-align: center;
+    color:white; 
+    padding-top: 10rem;
+ }
+  
+ 
+ /*style starts*/
+ .baner a{
+    font-family: 'Raleway', sans-serif;
+ }
+ .baner .iding h1{ 
+    font-family: 'Raleway', sans-serif;
+    font-weight:100px;
+    font-size: 4rem; 
+ }
+ .baner .iding p{ 
+    font-family: 'Raleway', sans-serif; 
+    font-size: 1rem; 
+ }
+
+
+ /*three box starts*/
+ .add-border{ 
+   
+     border-right:1px solid rgb(170, 163, 163);
+     border-left:1px solid rgb(175, 169, 169);
+ }
+.three-box{  
+    padding:  5.20rem 0;
+    margin: 0 auto;
+}
+.box-tere{
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+.box-tere h3{
+    font-size: 1.40rem;
+    color: #5385c1;
+    font-weight: 6rem;
+    
+}
+.box-tere p{
+    font-size: 0.90rem;  
+    color:rgb(174, 164, 164);
+    font-weight: 6rem;
+    padding: 0.70rem 0;
+    line-height: 1.40rem;
+}
+.bstyel{
+    background: #5385c1;
+    border:none;
+    padding: 0.40rem 1.40rem;
+    color:white;
+    font-size: 0.80rem;
+}
+
+/* sec-box starts*/
+.ful-wcolor{
+    width: 100%; 
+    background-color: #5385c1;
+    padding: 6rem 0rem;
+  
+}
+.four{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.tap h3{
+     color:white;
+     font-size: 2rem;
+}
+.tap p{
+    color:white; 
+    font-size: 0.90rem;
+}
+.tap{
+    padding-bottom: 1.50rem;
+}
+.sec-box{
+    text-align: center;
+}
+
+.phot{
+    text-align: center;
+    border: 1px solid white;
+    width: 22%;
+    padding: 2.50rem 0;
+    color:white;
+
+}
+.phot img{
+border-radius: 100%;
+margin-bottom: 2rem;
+}
+
+
+.aliquam{
+    text-align: center;
+    padding-bottom: 2.20rem;
+}
+
+
+.two-bx{
+    width: 100%;  
+    padding: 6rem 0rem;
+}
+.aliquam h3{
+    color:#5385c1;
+    font-size: 2rem;
+}
+.aliquam p{ 
+    color:rgb(182, 174, 174);
+   font-size: 0.90rem;
+}
+.lot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.six{
+    width: 49%;
+}
+.six h4{
+    color:#5385c1; 
+    padding-top: 2rem;
+}
+.six p{
+     color:rgb(174, 164, 164);
+     line-height: 1.60rem;
+     padding-top: 1rem;
+     padding-bottom: 0.40rem;
+     font-size: 0.90rem;
+}
+.foter{
+    padding-top: 2.20rem;
+    border-top: 1px solid rgb(157, 152, 152);
+}
+.lat p{
+font-size: 0.90rem;
+color:rgb(175, 172, 172);
+}
+.kat{
+    text-align: end;
+    color:#5385c1;  
+}
+
+.foter h6{
+    display: none;
+}
+ @media screen and (max-width:1000px) {
+    li{
+        text-align: left; 
+    }
+   
+ 
+ }
+
+ @media screen and (max-width:1000px) {
+     .phot{
+         width: 90%; 
+         margin: 1.50rem;
+     }
+    .four{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .add-border{ 
+   
+        border-top:1px solid rgb(170, 163, 163);
+        border-bottom:1px solid rgb(175, 169, 169);
+        
+        border-left:0px solid rgb(170, 163, 163);
+        border-right:0px solid rgb(175, 169, 169);
+        
+    }
+ 
+ }
+ 
+
+
+ @media screen and (max-width:1000px) {
+     .box-tere{
+         padding: 1.20rem 1rem;
+     }
+     .aliquam{
+         width: 100%;
+     }
+
+
+     .six{
+         width: 100%;
+         padding: 1rem 0;
+     }
+
+     .lat, .kat{
+         width: 100%;
+         text-align: center;
+     }
+   .foter h6{
+       font-size: 1rem;
+       color: rgb(201, 198, 198);
+       padding-top: 1rem;
+       display: block;
+   }
+   
+ 
+ }
+
+ 
